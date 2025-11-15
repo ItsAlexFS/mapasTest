@@ -145,5 +145,24 @@ const styles = StyleSheet.create({
     shadowOpacity:0.25,
     shadowRadius:3.84,
     elevation:5
-  }
+  },
+  refreshButton: {
+    position: 'absolute',
+    top: 170,      // súbelo o bájalo ajustando este valor
+    right: 20,
+    backgroundColor: '#3498db',
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  buttonText: {
+    color: 'white',
+    fontWeight: '600',
+    fontSize: 16,
+  },
 });

@@ -35,7 +35,7 @@ export default function App() {
 
       let currentLocation = await Location.getCurrentPositionAsync({
         accuracy: Location.Accuracy.Balanced,
-        maximunAge: 10000
+        maximumAge: 10000
       })
       setLocation(currentLocation.coords)
       setLoading(false)
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
   },
   refreshButton: {
     position: 'absolute',
-    top: 170,      // súbelo o bájalo ajustando este valor
+    top: 170,
     right: 20,
     backgroundColor: '#3498db',
     paddingVertical: 10,
